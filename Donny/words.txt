@@ -1,0 +1,20 @@
+adjective
+adverb
+conjunction
+interjection
+numeral
+preposition
+indirect object
+
+articles;
+definitearticle
+indefinitearticle
+
+pronouns;
+demonstrativepronoun
+indefinitepronoun
+interrogativepronoun
+personalpronoun
+possessivepronoun
+relativepronoun
+pronoun

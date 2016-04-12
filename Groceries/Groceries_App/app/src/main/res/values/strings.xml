@@ -1,0 +1,61 @@
+<resources>
+    <!--General-->
+    <string name="delete">Verwijderen?</string>
+
+    <!--Override-->
+    <string name="app_name">Boodschappen</string>
+    <string name="path_to_mainactivity" translatable="false">nlusersi324201edwinvanrooij.fhict.httpathena.boodschappen_app.MainActivity</string>
+
+    <!--Grocery List-->
+    <string name="list_hint_title">Titel van je lijst</string>
+
+    <!--Menu items-->
+    <string name="navigation_myLists">Mijn lijsten</string>
+
+    <!--Actionbar titles-->
+    <string name="ab_home">Home</string>
+    <string name="ab_new_product">Nieuw product</string>
+    <string name="ab_feedback">Feedback</string>
+    <string name="ab_my_lists">Mijn lijsten</string>
+    <string name="ab_list_overview">Lijstoverzicht</string>
+    <string name="ab_new_list">Nieuwe lijst</string>
+
+    <!--Login-->
+    <string name="btn_login">Inloggen</string>
+    <string name="btn_register">Registreren</string>
+    <string name="register">Registreren</string>
+    <string name="login">Inloggen</string>
+    <string name="placeholder_email">Email</string>
+    <!--Exceptions-->
+    <string name="exception_login_credentials">Ongeldige inloggegevens of het account is geblokkeerd.\r\nProbeer opnieuw.</string>
+
+    <!--Default menu items-->
+    <string name="action_feedback">Feedback</string>
+    <string name="action_my_lists">Mijn lijsten</string>
+    <string name="action_update_log">Update Log</string>
+    <string name="action_settings">Instellingen</string>
+    <string name="action_logout">Uitloggen</string>
+    <!--Exceptions-->
+
+    <!--Product-->
+    <string name="product_delete_unsuccessful">Product kon niet worden verwijderd.</string>
+    <string name="product_delete_warning">Product weghalen?</string>
+    <string name="product_add_unsuccessful">Product kon niet worden toegevoegd.</string>
+    <string name="product_add_successful">Product toegevoegd.</string>
+    <string name="product_add_empty_name">Productnaam is leeg.</string>
+    <string name="product_hint_name">Product</string>
+    <string name="product_hint_amount">Aantal</string>
+    <string name="product_hint_remark">Opmerking</string>
+    <string name="product_new_btn_add">Toevoegen</string>
+    <string name="product_remark_default">Geen opmerking.</string>
+    <string name="ab_add_user">Gebruiker toevoegen</string>
+    <string name="action_help">Help</string>
+    <string name="action_search">Zoeken</string>
+
+
+    <string name="feedback_bug">Fout</string>
+    <string name="feedback_hint_description">Beschrijving</string>
+    <string name="feedback_send">Sturen</string>
+    <string name="feedback_suggestion">Suggestie</string>
+    <string name="feedback_title">Titel</string>
+</resources>

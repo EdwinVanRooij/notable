@@ -1,0 +1,38 @@
+<resources>
+    <!--General-->
+    <string name="app_name" translatable="false">CloudPad</string>
+    <string name="path_to_mainactivity" translatable="false">app.com.example.android.cloudpad_app.MainActivity</string>
+    <!--Exceptions-->
+
+    <!--Content descriptions-->
+    <string name="content_description_logo">Logo</string>
+
+    <!--Actionbar titles-->
+    <string name="ab_home">Home</string>
+    <string name="ab_feedback">Feedback</string>
+    <string name="ab_edit_note">Pad aanpassen</string>
+    <string name="ab_new_note">Nieuwe pad</string>
+
+    <!--Default menu items-->
+
+    <!--Note menu items-->
+    <string name="action_shared_with">Gedeeld met…</string>
+    <!--Exceptions-->
+
+    <!--Note-->
+    <string name="tab_main_private_title">Privé</string>
+    <string name="tab_main_shared_title">Gedeeld</string>
+    <string name="note_warning_delete">Wil je deze notitie verwijderen?\r\nDit kan niet ongedaan gemaakt worden.</string>
+    <string name="note_hint_subject">Onderwerp</string>
+    <string name="note_hint_text">Notitie schrijven</string>
+    <string name="note_new_btn_add">Bevestigen</string>
+    <string name="note_new_checkbox">Delen</string>
+    <!--Exceptions-->
+
+    <!--Feedback-->
+    <string name="feedback_hint_description">Beschrijf suggestie/probleem</string>
+    <string name="feedback_send">Verzenden</string>
+    <string name="feedback_bug">Foutmelding</string>
+    <string name="feedback_suggestion">Suggestie</string>
+    <!--Exceptions-->
+</resources>

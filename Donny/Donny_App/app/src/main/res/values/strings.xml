@@ -1,0 +1,26 @@
+<resources>
+    <!--General-->
+    <string name="app_name">Donny</string>
+    <string name="action_settings">Settings</string>
+
+    <!--Main-->
+    <string name="main_message_hint">Bericht typen…</string>
+    <string name="main_btn_send">Sturen</string>
+    <string name="main_iv_face_description">@string/app_name</string>
+    <string name="main_iv_unknown_description">Jijzelf</string>
+    <string name="main_tv_typing">aan het typen…</string>
+    <string name="main_placeholder_tv_donny_head">Placehold</string>
+
+    <!--Common-->
+    <string name="loading">Laden…</string>
+    <string name="saving">Opslaan…</string>
+    <string name="waiting">Wachten…</string>
+    <string name="deleting">Verwijderen…</string>
+    <string name="adding">Toevoegen…</string>
+    <string name="positive">Ja</string>
+    <string name="negative">Nee</string>
+    <string name="ok">Oké</string>
+
+    <!--Exceptions-->
+    <string name="exception_no_internet_connection">Kon geen verbinding maken met de server.</string>
+</resources>

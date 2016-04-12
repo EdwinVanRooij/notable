@@ -1,0 +1,27 @@
+html, body
+{
+    height: 100%;
+    background-color: #27ae60;
+}
+#background_color_top {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 7.5%;
+    padding-bottom: 0;
+    background-color: #18673a;
+    box-shadow: 0px 0px 1px 1px #18673a;
+}
+
+#innercontainer {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 1px;
+    padding: 5%;
+    padding-bottom: 2%;
+    background-color: #dddddd;
+    box-shadow: inset 0px 0px 1px 1px #27ae60;
+}
+
+.TextBox {
+    width: 100%;
+}

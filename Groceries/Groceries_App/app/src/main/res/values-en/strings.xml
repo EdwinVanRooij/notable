@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Groceries</string>
+    <string name="ab_add_user">Add user</string>
+    <string name="ab_feedback">Feedback</string>
+    <string name="ab_home">Home</string>
+    <string name="ab_list_overview">List overview</string>
+    <string name="ab_my_lists">My lists</string>
+    <string name="ab_new_list">New list</string>
+    <string name="ab_new_product">New product</string>
+    <string name="action_feedback">Feedback</string>
+    <string name="action_help">Help</string>
+    <string name="action_logout">Logout</string>
+    <string name="action_my_lists">My lists</string>
+    <string name="action_search">Search</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_update_log">Update log</string>
+    <string name="btn_login">Login</string>
+    <string name="btn_register">Register</string>
+    <string name="delete">Delete?</string>
+    <string name="exception_login_credentials">Invalid login credentials or the account is blocked.</string>
+    <string name="feedback_bug">Bug</string>
+    <string name="feedback_hint_description">Describe suggestion/problem</string>
+    <string name="feedback_send">Send</string>
+    <string name="feedback_suggestion">Suggestion</string>
+    <string name="feedback_title">Feedback</string>
+    <string name="list_hint_title">Title of your list</string>
+    <string name="login">Login</string>
+    <string name="placeholder_email">Email</string>
+    <string name="product_add_empty_name">Product name is empty.</string>
+    <string name="product_add_successful">Added product.</string>
+    <string name="product_add_unsuccessful">Product could not be added.</string>
+    <string name="product_delete_unsuccessful">Product could not be deleted.</string>
+    <string name="product_delete_warning">Remove product?</string>
+    <string name="product_hint_amount">Amount</string>
+    <string name="product_hint_name">Product</string>
+    <string name="product_hint_remark">Remark</string>
+    <string name="product_new_btn_add">Add</string>
+    <string name="product_remark_default">No comment.</string>
+    <string name="register">Register</string>
+</resources>

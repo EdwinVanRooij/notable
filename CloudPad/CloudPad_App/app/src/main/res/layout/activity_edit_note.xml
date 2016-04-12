@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root"
+    style="@style/DefaultActivityStyle"
+    tools:context=".EditNoteActivity">
+
+    <EditText
+        android:id="@+id/etSubject"
+        style="@style/EditTextStyleHeader"
+        android:layout_alignParentTop="true"
+        android:hint="@string/note_hint_subject" />
+
+    <EditText
+        android:id="@+id/etText"
+        style="@style/EditTextStyleFillSpace"
+        android:layout_below="@+id/etSubject"
+        android:hint="@string/note_hint_text" />
+</RelativeLayout>

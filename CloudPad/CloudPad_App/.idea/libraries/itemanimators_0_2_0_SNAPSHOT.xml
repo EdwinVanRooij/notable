@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="itemanimators-0.2.0-SNAPSHOT">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.mikepenz/itemanimators/0.2.0-SNAPSHOT/res" />
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.mikepenz/itemanimators/0.2.0-SNAPSHOT/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.mikepenz/itemanimators/0.2.0-SNAPSHOT/bff730efe25444852af3a06aef3289d21d6d75a7/itemanimators-0.2.0-SNAPSHOT-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

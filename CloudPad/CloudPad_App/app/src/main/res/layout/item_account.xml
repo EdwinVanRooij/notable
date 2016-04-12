@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/item_account_root_id"
+    style="@style/ItemStyle"
+    android:background="@drawable/clickable_background"
+    android:clickable="true"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvUsername"
+        style="@style/TextViewStyleH2"
+        android:text="@string/placeholder_text"/>
+
+    <TextView
+        android:id="@+id/tvEmail"
+        style="@style/TextViewStyleDescSingleLine"
+        android:layout_below="@+id/tvUsername"
+        android:text="@string/placeholder_email"/>
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="10dp"
+        android:clickable="false"
+        android:focusable="false"
+        android:visibility="gone" />
+
+</RelativeLayout>

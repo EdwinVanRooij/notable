@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/DefaultActivityStyle"
+    tools:context=".NewNoteActivity">
+
+    <EditText
+        android:id="@+id/etSubject"
+        style="@style/EditTextStyleHeader"
+        android:layout_alignParentTop="true"
+        android:hint="@string/note_hint_subject" />
+
+    <CheckBox
+        android:id="@+id/cbShare"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etSubject"
+        android:text="@string/note_new_checkbox"
+        android:textColor="#808080" />
+
+    <EditText
+        android:id="@+id/etText"
+        style="@style/EditTextStyleFillSpace"
+        android:layout_above="@+id/btnAdd"
+        android:layout_below="@+id/cbShare"
+        android:hint="@string/note_hint_text" />
+
+    <Button
+        android:id="@+id/btnAdd"
+        style="@style/ButtonStyle"
+        android:layout_alignParentBottom="true"
+        android:drawableBottom="@drawable/ic_send_black_24dp"
+        android:text="@string/note_new_btn_add" />
+</RelativeLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/item_note_root_id"
+    style="@style/ItemStyle"
+    android:background="@drawable/clickable_background"
+    android:clickable="true"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvSubject"
+        style="@style/TextViewStyleH2SingleLine"
+        android:maxWidth="150dp"
+        android:text="@string/placeholder_text" />
+
+    <TextView
+        android:id="@+id/tvText"
+        style="@style/TextViewStyleDescSingleLine"
+        android:layout_below="@+id/tvSubject"
+        android:maxWidth="225dp"
+        android:text="@string/placeholder_text" />
+
+    <TextView
+        android:id="@+id/tvOwner"
+        style="@style/TextViewStyleDescSingleLine"
+        android:layout_alignBottom="@+id/tvText"
+        android:layout_alignParentEnd="true"
+        android:text="@string/placeholder_text"
+        android:textColor="@color/primary_subtle"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tvLastEdited"
+        style="@style/TextViewDate"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/placeholder_date"
+        android:visibility="gone" />
+
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\git\Notable\Groceries\Groceries_App\app\build\intermediates\exploded-aar\Groceries_App\notable-commons-lib\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="aaf930166f579607b129769afb56353ad156d8dc">
+        <dex dex="D:\git\Notable\Groceries\Groceries_App\app\build\intermediates\pre-dexed\debug\Groceries_App-notable-commons-lib-unspecified_a65a5f00a9df85076637beb948a1b0dff3e382ea.jar" />
+    </item>
+
+</items>

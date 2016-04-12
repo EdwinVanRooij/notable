@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/DefaultActivityStyle"
+    tools:context="app.com.example.android.cloudpad_app.FeedbackActivity">
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="@color/light"
+        android:padding="25dp" />
+
+    <EditText
+        android:id="@+id/etDescription"
+        style="@style/EditTextStyleFillSpace"
+        android:layout_above="@+id/btnSend"
+        android:layout_below="@+id/spinner"
+        android:hint="@string/feedback_hint_description" />
+
+    <Button
+        android:id="@+id/btnSend"
+        style="@style/ButtonStyle"
+        android:layout_alignParentBottom="true"
+        android:drawableBottom="@drawable/ic_send_black_24dp"
+        android:text="@string/feedback_send" />
+</RelativeLayout>

@@ -1,0 +1,30 @@
+<resources>
+    <!--General-->
+    <string name="title_activity_admin">AdminActivity</string>
+
+    <!--Override-->
+    <string name="app_name">Admin</string>
+    <string name="path_to_mainactivity" translatable="false">nlusersi324201edwinvanrooij.fhict.httpathena.cloudpadadmin_app.MainActivity</string>
+
+    <!--Action-->
+    <string name="action_feedback">Feedback</string>
+    <string name="action_update_log">Update Log</string>
+    <string name="action_settings">Instellingen</string>
+    <string name="action_logout">Uitloggen</string>
+    <string name="action_write_query">Query</string>
+
+    <!--Query-->
+    <string name="query_hint">Doe mij maar een querietje.</string>
+    <string name="query_btn_send">Sture dan</string>
+    <string name="query_btn_clear">Clear</string>
+
+    <!--Update log-->
+    <string name="hint_description">Beschrijving</string>
+    <string name="update_log_btn_confirm">Opslaan</string>
+
+    <!--Tab titles-->
+    <string name="tab_feedback">Feedback</string>
+    <string name="tab_accounts">Accounts</string>
+    <string name="tab_stats">Stats</string>
+    <string name="tab_etc">Etc</string>
+</resources>

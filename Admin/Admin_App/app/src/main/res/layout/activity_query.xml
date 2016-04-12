@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    style="@style/DefaultActivityStyle">
+
+    <Button
+        style="@style/ButtonStyle"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnClear"
+        android:onClick="clearQuery"
+        android:text="@string/query_btn_clear"
+        android:layout_toStartOf="@+id/loadView"/>
+
+    <Button
+        android:layout_width="@dimen/query_suggestion_button_width"
+        android:layout_height="@dimen/query_suggestion_button_height"
+        android:text="@string/placeholder_text"
+        android:id="@+id/btnSuggestionOne"
+        android:layout_below="@id/btnClear"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="@dimen/query_suggestion_button_width"
+        android:layout_height="@dimen/query_suggestion_button_height"
+        android:text="@string/placeholder_text"
+        android:id="@+id/btnSuggestionTwo"
+        android:layout_below="@id/btnClear"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="@dimen/query_suggestion_button_width"
+        android:layout_height="@dimen/query_suggestion_button_height"
+        android:text="@string/placeholder_text"
+        android:id="@+id/btnSuggestionThree"
+        android:layout_below="@id/btnClear"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        style="@style/EditTextStyleFillSpace"
+        android:id="@+id/etQueryText"
+        android:hint="@string/query_hint"
+        android:layout_above="@+id/btnQuery"
+        android:layout_below="@+id/btnSuggestionOne"/>
+
+    <Button
+        style="@style/ButtonStyle"
+        android:text="@string/query_btn_send"
+        android:layout_alignParentBottom="true"
+        android:drawableBottom="@drawable/ic_send_black_24dp"
+        android:id="@+id/btnQuery" />
+
+    <ImageView
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:src="@drawable/groen_bolletje"
+        android:id="@+id/loadView"
+        android:layout_alignParentEnd="true"/>
+</RelativeLayout>

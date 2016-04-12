@@ -1,0 +1,42 @@
+situatie;
+user heeft geen private notes
+
+actie;
+haal alle private notes uit de local database op, zet ze op de adapter
+& refresh de remote database
+
+-----------------------------------------------------------
+
+situatie;
+user heeft private notes
+
+actie; 
+haal alle private notes uit de local database op, zet ze op de adapter
+& refresh de remote database
+
+-----------------------------------------------------------
+
+situatie;
+nieuwe notitie
+
+actie;
+als de nieuwe notitie een private notitie is, zet hem eerst in de lokale
+database en dan in de remote
+
+-----------------------------------------------------------
+
+situatie;
+update notitie
+
+actie;
+als de notitie private is, update dezelfde lokale notitie
+
+-----------------------------------------------------------
+
+situatie;
+verwijder notitie
+
+actie;
+als de notitie private is, verwijder dezelfde notitie lokaal
+
+-----------------------------------------------------------

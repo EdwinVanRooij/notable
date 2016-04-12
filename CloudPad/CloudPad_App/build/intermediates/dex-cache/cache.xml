@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\git\Notable\CloudPad\CloudPad_App\app\build\intermediates\exploded-aar\CloudPad_App\notable-commons-lib\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="27298374484acd54f9267ec69c1651679e1cb962">
+        <dex dex="D:\git\Notable\CloudPad\CloudPad_App\app\build\intermediates\pre-dexed\debug\CloudPad_App-notable-commons-lib-unspecified_bc20dec28905c14704aff932cb77b743632778d1.jar" />
+    </item>
+
+</items>
