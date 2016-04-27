@@ -9,13 +9,23 @@ set hour=%hour: =0%
 set min=%time:~-8,2%
 
 rem Set the date string for commit message
+echo "Initializing strings..."
 set datestring="%year%-%month%-%day%_%hour%.%min%"
 
+rem Set the commit message
+set commit_message="Added all changes"
+set final_message="%commit_message% at %datestring% - (automated commit from batch)"
+
 rem Add all files to the git head
+echo "Adding all files to git head..."
 git add .
 
 rem Commit all changes
-git co -m "Updated the config files at %datestring% - (automated commit from batch)"
+echo "Committing changes..."
+git commit -m 'testcommitmsg'
 
 rem Push to remote git repo
+echo 'Pushing changes...'
 git push
+
+pause
