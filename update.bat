@@ -22,7 +22,7 @@ git add .
 
 rem Commit all changes
 echo "Committing changes..."
-git commit -m "test commit msg"
+git commit -m "test commit msg %min%"
 
 rem Push to remote git repo
 echo 'Pushing changes...'
