@@ -1,2 +1,2 @@
 include ':app', ':notable-commons-lib'
-project(':notable-commons-lib').projectDir = new File('D:\\git\\Android_Projects\\NotableCommonsLib\\notable-commons-lib')
+project(':notable-commons-lib').projectDir = new File('D:\\Storage\\Projects\\Notable\\NotableCommonsLib\\notable-commons-lib')
