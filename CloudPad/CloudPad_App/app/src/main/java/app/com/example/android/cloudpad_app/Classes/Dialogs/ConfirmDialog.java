@@ -1,4 +1,4 @@
-package app.com.example.android.cloudpad_app.Classes.Dialogs;
+package app.com.example.android.cloudpad_app.classes.dialogs;
 
 import android.app.AlertDialog;
 import android.content.Context;
@@ -7,7 +7,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.TextView;
 
-import app.com.example.android.cloudpad_app.Classes.Interfaces.ReturnBoolean;
+import app.com.example.android.cloudpad_app.classes.interfaces.ReturnBoolean;
 import app.com.example.android.cloudpad_app.R;
 
 /**

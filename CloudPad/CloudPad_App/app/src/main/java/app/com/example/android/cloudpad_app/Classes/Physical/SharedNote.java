@@ -1,11 +1,10 @@
-package app.com.example.android.cloudpad_app.Classes.Physical.Notes;
+package app.com.example.android.cloudpad_app.classes.physical;
 
 import android.os.Parcel;
 import android.os.Parcelable;
 import android.text.format.DateFormat;
 
 import java.util.Date;
-import java.util.Objects;
 
 import nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.Classes.Handlers.ConvertHandler;
 
@@ -47,7 +46,7 @@ public class SharedNote extends Note implements Parcelable {
     public String getLastEditedString() {
         String result;
 
-        if (Objects.equals(last_edited, null)) {
+        if (last_edited == null) {
             result = "-";
         } else {
             result = (String) DateFormat.format("dd-MM-yyyy", last_edited);

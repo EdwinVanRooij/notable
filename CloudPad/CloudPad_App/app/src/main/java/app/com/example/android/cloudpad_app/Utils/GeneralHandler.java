@@ -1,4 +1,4 @@
-package app.com.example.android.cloudpad_app.Classes.Handlers;
+package app.com.example.android.cloudpad_app.utils;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -9,10 +9,10 @@ import com.mikepenz.fastadapter.items.AbstractItem;
 import java.util.ArrayList;
 import java.util.List;
 
-import app.com.example.android.cloudpad_app.Classes.AdapterItems.AdapterItemAccount;
-import app.com.example.android.cloudpad_app.Classes.AdapterItems.AdapterItemInfoAccount;
-import app.com.example.android.cloudpad_app.Classes.AdapterItems.AdapterItemNote;
-import app.com.example.android.cloudpad_app.Classes.Physical.Notes.Note;
+import app.com.example.android.cloudpad_app.classes.adapteritems.AdapterItemAccount;
+import app.com.example.android.cloudpad_app.classes.adapteritems.AdapterItemInfoAccount;
+import app.com.example.android.cloudpad_app.classes.adapteritems.AdapterItemNote;
+import app.com.example.android.cloudpad_app.classes.physical.Note;
 import nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.Classes.Physical.Account;
 
 /**

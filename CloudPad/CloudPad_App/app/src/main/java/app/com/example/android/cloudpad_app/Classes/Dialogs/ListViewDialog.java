@@ -1,4 +1,4 @@
-package app.com.example.android.cloudpad_app.Classes.Dialogs;
+package app.com.example.android.cloudpad_app.classes.dialogs;
 
 import android.app.AlertDialog;
 import android.content.Context;

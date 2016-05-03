@@ -1,4 +1,4 @@
-package app.com.example.android.cloudpad_app.Fragments;
+package app.com.example.android.cloudpad_app.fragments;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -16,26 +16,27 @@ import com.mikepenz.fastadapter.IItem;
 import com.mikepenz.fastadapter.adapters.ItemAdapter;
 import com.mikepenz.itemanimators.AlphaInAnimator;
 
+import java.util.ArrayList;
 import java.util.List;
 
-import app.com.example.android.cloudpad_app.Classes.AdapterItems.AdapterItemNote;
-import app.com.example.android.cloudpad_app.Classes.Dialogs.ConfirmDialog;
-import nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.Classes.Handlers.AccountHandler;
-import app.com.example.android.cloudpad_app.Classes.Handlers.NoteHandler;
-import app.com.example.android.cloudpad_app.Classes.Interfaces.ReturnBoolean;
-import app.com.example.android.cloudpad_app.Classes.Physical.Notes.Note;
 import app.com.example.android.cloudpad_app.EditNoteActivity;
 import app.com.example.android.cloudpad_app.R;
+import app.com.example.android.cloudpad_app.classes.adapteritems.AdapterItemNote;
+import app.com.example.android.cloudpad_app.classes.dialogs.ConfirmDialog;
+import app.com.example.android.cloudpad_app.classes.handlers.NoteHandler;
+import app.com.example.android.cloudpad_app.classes.interfaces.ReturnBoolean;
+import app.com.example.android.cloudpad_app.classes.physical.Note;
 import butterknife.Bind;
 import butterknife.ButterKnife;
 import nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.Classes.Config;
+import nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.Classes.Handlers.AccountHandler;
 import nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.Classes.Physical.Account;
 
 
 public abstract class FragmentNote extends Fragment implements SwipeRefreshLayout.OnRefreshListener {
 
     //region Fields
-    protected List<Note> notes;
+    List<Note> notes = new ArrayList<>();
 
     @Bind(R.id.recyclerView)
     RecyclerView rv;

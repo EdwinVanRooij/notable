@@ -1,4 +1,4 @@
-package app.com.example.android.cloudpad_app.Classes.AdapterItems;
+package app.com.example.android.cloudpad_app.classes.adapteritems;
 
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
@@ -6,8 +6,8 @@ import android.widget.TextView;
 
 import com.mikepenz.fastadapter.items.AbstractItem;
 
-import app.com.example.android.cloudpad_app.Classes.Physical.Notes.Note;
-import app.com.example.android.cloudpad_app.Classes.Physical.Notes.SharedNote;
+import app.com.example.android.cloudpad_app.classes.physical.Note;
+import app.com.example.android.cloudpad_app.classes.physical.SharedNote;
 import app.com.example.android.cloudpad_app.R;
 import butterknife.Bind;
 import butterknife.ButterKnife;

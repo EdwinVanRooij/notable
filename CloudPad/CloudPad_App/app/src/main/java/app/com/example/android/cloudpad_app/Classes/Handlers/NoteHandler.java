@@ -1,4 +1,4 @@
-package app.com.example.android.cloudpad_app.Classes.Handlers;
+package app.com.example.android.cloudpad_app.classes.handlers;
 
 import android.content.Context;
 
@@ -12,15 +12,12 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
-import nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.Classes.Handlers.DatabaseHandler;
-import app.com.example.android.cloudpad_app.Classes.Physical.Notes.Note;
-import app.com.example.android.cloudpad_app.Classes.Physical.Notes.PrivateNote;
-import app.com.example.android.cloudpad_app.Classes.Physical.Notes.SharedNote;
-import app.com.example.android.cloudpad_app.Classes.Physical.PushMessages.SendPushMessage;
-import app.com.example.android.cloudpad_app.Classes.Physical.PushMessages.SendPushMessageNote;
+import app.com.example.android.cloudpad_app.classes.physical.Note;
+import app.com.example.android.cloudpad_app.classes.physical.PrivateNote;
+import app.com.example.android.cloudpad_app.classes.physical.SharedNote;
 import nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.Classes.AsyncTasks.AsyncURLRequest;
-import nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.Classes.Config;
 import nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.Classes.Handlers.ConvertHandler;
+import nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.Classes.Handlers.DatabaseHandler;
 import nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.Classes.Interfaces.AsyncResponse;
 import nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.Classes.Physical.Account;
 
@@ -48,27 +45,8 @@ public class NoteHandler {
     //endregion
 
     //region Methods
-
-    public void updateNote(AsyncResponse a, Note note) throws UnsupportedEncodingException, MalformedURLException {
-        String query = "update note set subject = '" + note.getSubject() + "', text ='" + note.getText() + "' where id = " + note.getId();
-        new DatabaseHandler(c, query, AsyncURLRequest.queryType.Modify).withProgressBar().withAsyncResponse(a).execute();
-    }
-
-    public void deleteNote(AsyncResponse a, Note n, List<Account> accounts) throws UnsupportedEncodingException, MalformedURLException {
-        String query = "update note set active = 0 where id = " + n.getId();
-        new DatabaseHandler(c, query, AsyncURLRequest.queryType.Modify).withProgressBar().withAsyncResponse(a).execute();
-
-        new PushHandler(c).push(a, new SendPushMessageNote(Config.KEY_CHANNEL_NOTES, Config.KEY_EVENT_NOTE_DELETE, SendPushMessage.AccountsToIntList(accounts), n));
-    }
-
-    public void deleteNote(AsyncResponse a, Note n) throws UnsupportedEncodingException, MalformedURLException {
-        String query = "update note set active = 0 where id = " + n.getId();
-        new DatabaseHandler(c, query, AsyncURLRequest.queryType.Modify).withProgressBar().withAsyncResponse(a).execute();
-    }
-
     public void addNote(AsyncResponse a, Note note) {
-        String query = "insert into note(subject, text, owner_id) values " + "('" + note.getSubject() + "', '" + note.getText() + "', " + account.getId() + ")";
-        new DatabaseHandler(c, query, AsyncURLRequest.queryType.Modify).withProgressBar().withAsyncResponse(a).execute();
+
     }
 
     public void getPrivateNotes(AsyncResponse a, boolean bool_progressbar) throws UnsupportedEncodingException, MalformedURLException {

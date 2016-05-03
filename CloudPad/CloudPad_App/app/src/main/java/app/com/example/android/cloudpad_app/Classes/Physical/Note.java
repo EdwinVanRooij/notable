@@ -1,9 +1,7 @@
-package app.com.example.android.cloudpad_app.Classes.Physical.Notes;
+package app.com.example.android.cloudpad_app.classes.physical;
 
 import android.os.Parcel;
 import android.os.Parcelable;
-
-import java.util.Objects;
 
 import nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.Classes.Config;
 
@@ -49,7 +47,7 @@ public class Note implements Parcelable {
     }
 
     public void setSubject(String subject) {
-        if (Objects.equals(subject, null) || Objects.equals(subject, "")) {
+        if (subject == null || subject.equals("")) {
             this.subject = Config.DEFAULT_SUBJECT;
         } else {
             this.subject = subject;
@@ -62,7 +60,7 @@ public class Note implements Parcelable {
     }
 
     public void setText(String text) {
-        if (Objects.equals(text, null) || Objects.equals(text, "")) {
+        if (text == null || text.equals("")) {
             this.text = Config.DEFAULT_TEXT;
         } else {
             this.text = text;
@@ -91,8 +89,6 @@ public class Note implements Parcelable {
         }
         return "bekijk " + subject + ": " + text;
     }
-
-    public enum NoteType { Private, Shared }
 
     //region Parcelable, only actually used in implementations of Note
     @Override

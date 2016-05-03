@@ -1,4 +1,4 @@
-package app.com.example.android.cloudpad_app.Classes.AdapterItems;
+package app.com.example.android.cloudpad_app.classes.adapteritems;
 
 import android.support.v7.widget.RecyclerView;
 import android.view.View;

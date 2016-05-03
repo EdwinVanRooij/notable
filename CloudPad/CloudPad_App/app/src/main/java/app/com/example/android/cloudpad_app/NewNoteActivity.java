@@ -21,14 +21,12 @@ import com.mikepenz.itemanimators.AlphaInAnimator;
 import java.util.ArrayList;
 import java.util.List;
 
-import app.com.example.android.cloudpad_app.Classes.AdapterItems.AdapterItemAccount;
+import app.com.example.android.cloudpad_app.classes.adapteritems.AdapterItemAccount;
 import nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.Classes.Handlers.DatabaseHandler;
 import nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.Classes.Handlers.AccountHandler;
-import app.com.example.android.cloudpad_app.Classes.Handlers.GeneralHandler;
-import app.com.example.android.cloudpad_app.Classes.Handlers.NoteHandler;
-import app.com.example.android.cloudpad_app.Classes.Handlers.PushHandler;
-import app.com.example.android.cloudpad_app.Classes.Physical.Notes.Note;
-import app.com.example.android.cloudpad_app.Classes.Physical.PushMessages.SendPushMessageNote;
+import app.com.example.android.cloudpad_app.utils.GeneralHandler;
+import app.com.example.android.cloudpad_app.classes.handlers.NoteHandler;
+import app.com.example.android.cloudpad_app.classes.physical.Note;
 import butterknife.Bind;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
@@ -106,7 +104,9 @@ public class NewNoteActivity extends AppCompatActivity {
                     public void processFinish(String output) {
                     }
                 };
-                noteHandler.addNote(a, new Note(subject, text, thisAccount.getId()));
+                Note newNote =new Note(subject, text, thisAccount.getId());
+                String query = "insert into note(subject, text, owner_id) values " + "('" + newNote.getSubject() + "', '" + newNote .getText() + "', " + thisAccount.getId() + ")";
+                new DatabaseHandler(this, query, AsyncURLRequest.queryType.Modify).withProgressBar().withAsyncResponse(a).execute();
                 finish();
             }
         } catch (Exception e) {
@@ -206,7 +206,6 @@ public class NewNoteActivity extends AppCompatActivity {
                         }
                     };
                     Note n = new Note(subject, text, thisAccount.getId());
-                    new PushHandler(NewNoteActivity.this).push(a3, new SendPushMessageNote(Config.KEY_CHANNEL_NOTES, Config.KEY_EVENT_NOTE_NEW, accountIdList, n));
                     finish();
                 } catch (Exception e) {
                     e.printStackTrace();

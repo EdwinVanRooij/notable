@@ -24,10 +24,10 @@ import com.mikepenz.materialdrawer.model.interfaces.IDrawerItem;
 import java.util.Objects;
 
 import nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.adapters.ViewPagerAdapter;
-import app.com.example.android.cloudpad_app.Classes.Handlers.GeneralHandler;
-import app.com.example.android.cloudpad_app.Classes.Handlers.PushHandler;
-import app.com.example.android.cloudpad_app.Fragments.FragmentPrivate;
-import app.com.example.android.cloudpad_app.Fragments.FragmentShared;
+import app.com.example.android.cloudpad_app.utils.GeneralHandler;
+import app.com.example.android.cloudpad_app.classes.handlers.PushHandler;
+import app.com.example.android.cloudpad_app.fragments.FragmentPrivate;
+import app.com.example.android.cloudpad_app.fragments.FragmentShared;
 import butterknife.Bind;
 import butterknife.ButterKnife;
 import butterknife.OnClick;

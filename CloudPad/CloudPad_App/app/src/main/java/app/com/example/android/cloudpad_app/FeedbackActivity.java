@@ -8,8 +8,8 @@ import android.widget.Spinner;
 
 import java.util.ArrayList;
 
-import app.com.example.android.cloudpad_app.Classes.Handlers.FeedbackHandler;
-import app.com.example.android.cloudpad_app.Classes.Physical.FeedbackItem;
+import app.com.example.android.cloudpad_app.classes.handlers.FeedbackHandler;
+import app.com.example.android.cloudpad_app.classes.physical.FeedbackItem;
 import butterknife.Bind;
 import butterknife.ButterKnife;
 import butterknife.OnClick;

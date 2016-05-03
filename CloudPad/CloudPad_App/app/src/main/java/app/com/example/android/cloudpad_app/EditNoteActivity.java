@@ -9,12 +9,11 @@ import android.widget.EditText;
 
 import java.util.List;
 
-import app.com.example.android.cloudpad_app.Classes.Dialogs.ListViewDialog;
-import nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.Classes.Handlers.AccountHandler;
-import app.com.example.android.cloudpad_app.Classes.Handlers.GeneralHandler;
-import app.com.example.android.cloudpad_app.Classes.Handlers.NoteHandler;
-import app.com.example.android.cloudpad_app.Classes.Physical.Notes.Note;
-import app.com.example.android.cloudpad_app.Classes.Physical.Notes.SharedNote;
+import app.com.example.android.cloudpad_app.classes.dialogs.ListViewDialog;
+import app.com.example.android.cloudpad_app.utils.GeneralHandler;
+import app.com.example.android.cloudpad_app.classes.handlers.NoteHandler;
+import app.com.example.android.cloudpad_app.classes.physical.Note;
+import app.com.example.android.cloudpad_app.classes.physical.SharedNote;
 import butterknife.Bind;
 import butterknife.ButterKnife;
 import nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.Classes.AsyncTasks.AsyncURLRequest;
@@ -83,7 +82,8 @@ public class EditNoteActivity extends AppCompatActivity {
                         Log.d(TAG, "processFinish: Finished process updatenote");
                     }
                 };
-                noteHandler.updateNote(a, thisNote);
+                String query = "update note set subject = '" + thisNote.getSubject() + "', text ='" + thisNote.getText() + "' where id = " + thisNote.getId();
+                new DatabaseHandler(this, query, AsyncURLRequest.queryType.Modify).withProgressBar().withAsyncResponse(a).execute();
             } catch (Exception e) {
                 e.printStackTrace();
             }

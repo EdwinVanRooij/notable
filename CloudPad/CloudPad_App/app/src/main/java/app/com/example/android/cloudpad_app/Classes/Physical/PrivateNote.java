@@ -1,4 +1,4 @@
-package app.com.example.android.cloudpad_app.Classes.Physical.Notes;
+package app.com.example.android.cloudpad_app.classes.physical;
 
 import android.os.Parcel;
 import android.os.Parcelable;
