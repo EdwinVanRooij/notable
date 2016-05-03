@@ -2,11 +2,137 @@
 <items version="2" >
 
     <item
-        jar="D:\git\Notable\CloudPad\CloudPad_App\app\build\intermediates\exploded-aar\CloudPad_App\notable-commons-lib\unspecified\jars\classes.jar"
-        jumboMode="false"
+        jar="D:\Storage\Projects\Notable\CloudPad\CloudPad_App\app\build\intermediates\exploded-aar\com.mikepenz\fastadapter\0.8.1\jars\classes.jar"
+        jumboMode="true"
         revision="23.0.2"
-        sha1="27298374484acd54f9267ec69c1651679e1cb962">
-        <dex dex="D:\git\Notable\CloudPad\CloudPad_App\app\build\intermediates\pre-dexed\debug\CloudPad_App-notable-commons-lib-unspecified_bc20dec28905c14704aff932cb77b743632778d1.jar" />
+        sha1="655841dba8fa9ebb45e34417fc6d36efb618af7b">
+        <dex dex="D:\Storage\Projects\Notable\CloudPad\CloudPad_App\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.mikepenz-fastadapter-0.8.1_fdf748794c0d06deb17a11f99d3770f655a31932\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Edwin\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.2.2\1f96456ca233dec780aa224bff076d8e8bca3908\gson-2.2.2.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="1f96456ca233dec780aa224bff076d8e8bca3908">
+        <dex dex="D:\Storage\Projects\Notable\CloudPad\CloudPad_App\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.2.2_9ceea2c3d1958e7a54dcbaefe642b89e972ca386\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Edwin\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife\7.0.1\d5d13ea991eab0252e3710e5df3d6a9d4b21d461\butterknife-7.0.1.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="d5d13ea991eab0252e3710e5df3d6a9d4b21d461">
+        <dex dex="D:\Storage\Projects\Notable\CloudPad\CloudPad_App\app\build\intermediates\transforms\dex\debug\folders\1000\10\butterknife-7.0.1_38a7c1e9734165e99fcdb5c3727c0a06f5efee61\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Edwin\.gradle\caches\modules-2\files-2.1\org.slf4j\slf4j-api\1.7.5\6b262da268f8ad9eff941b25503a9198f0a0ac93\slf4j-api-1.7.5.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="6b262da268f8ad9eff941b25503a9198f0a0ac93">
+        <dex dex="D:\Storage\Projects\Notable\CloudPad\CloudPad_App\app\build\intermediates\transforms\dex\debug\folders\1000\10\slf4j-api-1.7.5_3aef0f6191df5fca899ef052cfae02231b5e7440\classes.dex" />
+    </item>
+    <item
+        jar="D:\Storage\Projects\Notable\CloudPad\CloudPad_App\app\build\intermediates\exploded-aar\com.android.support\design\23.1.1\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="379471b2bd17d9737c050345c08e8c7d16589784">
+        <dex dex="D:\Storage\Projects\Notable\CloudPad\CloudPad_App\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-23.1.1_d239dbb67ce1db1c9ec5cd846ccc4573d83dd1db\classes.dex" />
+    </item>
+    <item
+        jar="D:\Storage\Projects\Notable\CloudPad\CloudPad_App\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="e5f32fa48a3eb2de0c987025c11b6e3864b634d9">
+        <dex dex="D:\Storage\Projects\Notable\CloudPad\CloudPad_App\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.2.0_62322b279fcde87cadb1f54940a83841985740ab\classes.dex" />
+    </item>
+    <item
+        jar="D:\Storage\Projects\Notable\CloudPad\CloudPad_App\app\build\intermediates\exploded-aar\com.mikepenz\materialdrawer\4.6.4\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="25c8422fe5a0acee6cee4f7e52449c2802f6ca19">
+        <dex dex="D:\Storage\Projects\Notable\CloudPad\CloudPad_App\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.mikepenz-materialdrawer-4.6.4_32851be9af26ad22533241b090cf6ca40ebdc055\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Edwin\.gradle\caches\modules-2\files-2.1\com.pusher\pusher-java-client\0.3.3\76309e8f5d2bc87b1eed8153eeb3b18061ae2a9a\pusher-java-client-0.3.3.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="76309e8f5d2bc87b1eed8153eeb3b18061ae2a9a">
+        <dex dex="D:\Storage\Projects\Notable\CloudPad\CloudPad_App\app\build\intermediates\transforms\dex\debug\folders\1000\10\pusher-java-client-0.3.3_7fba390cddcaf3721cd454b0cca411cd89893b70\classes.dex" />
+    </item>
+    <item
+        jar="D:\Storage\Projects\Notable\CloudPad\CloudPad_App\app\build\intermediates\exploded-aar\com.mikepenz\itemanimators\0.2.0-SNAPSHOT\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="05a219732c69634afad451bb157476108b1d5c33">
+        <dex dex="D:\Storage\Projects\Notable\CloudPad\CloudPad_App\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.mikepenz-itemanimators-0.2.0-SNAPSHOT_c88723b770e20a9c2ebf97e94866c762752d4b27\classes.dex" />
+    </item>
+    <item
+        jar="D:\Storage\Projects\Notable\CloudPad\CloudPad_App\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\jars\libs\internal_impl-23.2.0.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="6e239441500605809818997dd63b62a947195f8c">
+        <dex dex="D:\Storage\Projects\Notable\CloudPad\CloudPad_App\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.2.0_d3ab34ff96300ae5c910ea4c4d2c14a5876271f0\classes.dex" />
+    </item>
+    <item
+        jar="D:\Storage\Projects\Notable\CloudPad\CloudPad_App\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.1.1\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="09c5e804bc67fc0580360043dff067df574a60d4">
+        <dex dex="D:\Storage\Projects\Notable\CloudPad\CloudPad_App\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-23.1.1_09efe727c6d6c0bf101c44796fa4506bb8164264\classes.dex" />
+    </item>
+    <item
+        jar="D:\Storage\Projects\Notable\CloudPad\CloudPad_App\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="4df91c8ac52449eaebeb9018e6e225f2caff3ddc">
+        <dex dex="D:\Storage\Projects\Notable\CloudPad\CloudPad_App\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_5025728ce413ec1743ea96922b791f6927691d4a\classes.dex" />
+    </item>
+    <item
+        jar="D:\Storage\Projects\Notable\CloudPad\CloudPad_App\app\build\intermediates\exploded-aar\com.mikepenz\materialize\0.5.1\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="25e8af11fff99ad02250f52f2436e25f60cc1bbe">
+        <dex dex="D:\Storage\Projects\Notable\CloudPad\CloudPad_App\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.mikepenz-materialize-0.5.1_d8280cc5e77c5558b390d2ee596fbe39a184c16c\classes.dex" />
+    </item>
+    <item
+        jar="D:\Storage\Projects\Notable\CloudPad\CloudPad_App\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="da2edc9e4bdd05735d10067fac64b620990acb39">
+        <dex dex="D:\Storage\Projects\Notable\CloudPad\CloudPad_App\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_39cc846e21f1fddec1918c0fcbf0f1106dc8d69f\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Edwin\.gradle\caches\modules-2\files-2.1\org.java-websocket\java-websocket\1.3.1\786b8f022046bae48ea76d4855674881af237e2c\java-websocket-1.3.1.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="786b8f022046bae48ea76d4855674881af237e2c">
+        <dex dex="D:\Storage\Projects\Notable\CloudPad\CloudPad_App\app\build\intermediates\transforms\dex\debug\folders\1000\10\java-websocket-1.3.1_6d0675489f035b2657adb682691bd54882589d6b\classes.dex" />
+    </item>
+    <item
+        jar="D:\Storage\Projects\Notable\CloudPad\CloudPad_App\app\build\intermediates\exploded-aar\com.mikepenz\iconics-core\2.5.5\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="07b79fe6ed098c0e1fdb0bf333d0c523c9867f06">
+        <dex dex="D:\Storage\Projects\Notable\CloudPad\CloudPad_App\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.mikepenz-iconics-core-2.5.5_6be99b453381314c33fbc7517adc5c38542b439e\classes.dex" />
+    </item>
+    <item
+        jar="D:\Storage\Projects\Notable\CloudPad\CloudPad_App\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="D:\Storage\Projects\Notable\CloudPad\CloudPad_App\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.1.1_923cc7db2fb423215a29bf66eaa8fccf1ca5bd82\classes.dex" />
+    </item>
+    <item
+        jar="D:\Storage\Projects\Notable\CloudPad\CloudPad_App\app\build\intermediates\exploded-aar\com.mikepenz\material-design-iconic-typeface\2.2.0.1\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="27bd073c1d188457050a9169e7dfe03ea0271dbc">
+        <dex dex="D:\Storage\Projects\Notable\CloudPad\CloudPad_App\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.mikepenz-material-design-iconic-typeface-2.2.0.1_0dc8bff7e21ae97b7dfa56171d1de2cb914ce46c\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Edwin\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.2.0\support-annotations-23.2.0.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="c5bf571bb10462bd90e5419ade67793f71acbc87">
+        <dex dex="D:\Storage\Projects\Notable\CloudPad\CloudPad_App\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.2.0_f88e889f99125c01f243164936bb08a74b93bfa5\classes.dex" />
     </item>
 
 </items>

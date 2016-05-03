@@ -4,7 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Admin_App.iml" filepath="$PROJECT_DIR$/Admin_App.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../../../Android_Projects/NotableCommonsLib/notable-commons-lib/notable-commons-lib.iml" filepath="$PROJECT_DIR$/../../../Android_Projects/NotableCommonsLib/notable-commons-lib/notable-commons-lib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../NotableCommonsLib/notable-commons-lib/notable-commons-lib.iml" filepath="$PROJECT_DIR$/../../NotableCommonsLib/notable-commons-lib/notable-commons-lib.iml" />
     </modules>
   </component>
 </project>
