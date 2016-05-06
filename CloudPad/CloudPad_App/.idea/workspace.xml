@@ -9,42 +9,7 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="df53b59e-1e7b-40fc-ada2-f5de57655239" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/app/com/example/android/cloudpad_app/Classes/AsyncPushRequest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/app/com/example/android/cloudpad_app/Classes/Handlers/FeedbackHandler.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/app/com/example/android/cloudpad_app/Classes/Handlers/PushHandler.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/app/com/example/android/cloudpad_app/Classes/MyNotification.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/app/com/example/android/cloudpad_app/Classes/Physical/FeedbackItem.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/app/com/example/android/cloudpad_app/Classes/Physical/PushMessages/PushMessageEnums.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/app/com/example/android/cloudpad_app/Classes/Physical/PushMessages/ReceivePushMessage.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/app/com/example/android/cloudpad_app/Classes/Physical/PushMessages/ReceivePushMessageNote.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/app/com/example/android/cloudpad_app/Classes/Physical/PushMessages/SendPushMessage.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/app/com/example/android/cloudpad_app/Classes/Physical/PushMessages/SendPushMessageNote.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/app/com/example/android/cloudpad_app/Classes/Physical/PushMessages/Settings.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/cache.properties.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build.gradle" afterPath="$PROJECT_DIR$/app/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/app/com/example/android/cloudpad_app/Classes/AdapterItems/AdapterItemAccount.java" afterPath="$PROJECT_DIR$/app/src/main/java/app/com/example/android/cloudpad_app/Classes/AdapterItems/AdapterItemAccount.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/app/com/example/android/cloudpad_app/Classes/AdapterItems/AdapterItemInfoAccount.java" afterPath="$PROJECT_DIR$/app/src/main/java/app/com/example/android/cloudpad_app/Classes/AdapterItems/AdapterItemInfoAccount.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/app/com/example/android/cloudpad_app/Classes/AdapterItems/AdapterItemNote.java" afterPath="$PROJECT_DIR$/app/src/main/java/app/com/example/android/cloudpad_app/Classes/AdapterItems/AdapterItemNote.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/app/com/example/android/cloudpad_app/Classes/Dialogs/ConfirmDialog.java" afterPath="$PROJECT_DIR$/app/src/main/java/app/com/example/android/cloudpad_app/Classes/Dialogs/ConfirmDialog.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/app/com/example/android/cloudpad_app/Classes/Dialogs/ListViewDialog.java" afterPath="$PROJECT_DIR$/app/src/main/java/app/com/example/android/cloudpad_app/Classes/Dialogs/ListViewDialog.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/app/com/example/android/cloudpad_app/Classes/Interfaces/ReturnBoolean.java" afterPath="$PROJECT_DIR$/app/src/main/java/app/com/example/android/cloudpad_app/Classes/Interfaces/ReturnBoolean.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/app/com/example/android/cloudpad_app/EditNoteActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/app/com/example/android/cloudpad_app/EditNoteActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/app/com/example/android/cloudpad_app/FeedbackActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/app/com/example/android/cloudpad_app/FeedbackActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/app/com/example/android/cloudpad_app/Fragments/FragmentNote.java" afterPath="$PROJECT_DIR$/app/src/main/java/app/com/example/android/cloudpad_app/Fragments/FragmentNote.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/app/com/example/android/cloudpad_app/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/app/com/example/android/cloudpad_app/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/app/com/example/android/cloudpad_app/NewNoteActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/app/com/example/android/cloudpad_app/NewNoteActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_note.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_note.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/app/com/example/android/cloudpad_app/Classes/Handlers/GeneralHandler.java" afterPath="$PROJECT_DIR$/app/src/main/java/app/com/example/android/cloudpad_app/Utils/GeneralHandler.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/app/com/example/android/cloudpad_app/Classes/Physical/Notes/Note.java" afterPath="$PROJECT_DIR$/app/src/main/java/app/com/example/android/cloudpad_app/Classes/Physical/Note.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/app/com/example/android/cloudpad_app/Classes/Physical/Notes/PrivateNote.java" afterPath="$PROJECT_DIR$/app/src/main/java/app/com/example/android/cloudpad_app/Classes/Physical/PrivateNote.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/app/com/example/android/cloudpad_app/Classes/Physical/Notes/SharedNote.java" afterPath="$PROJECT_DIR$/app/src/main/java/app/com/example/android/cloudpad_app/Classes/Physical/SharedNote.java" />
-    </list>
+    <list default="true" id="df53b59e-1e7b-40fc-ada2-f5de57655239" name="Default" comment="" />
     <ignored path="CloudPad_App.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
