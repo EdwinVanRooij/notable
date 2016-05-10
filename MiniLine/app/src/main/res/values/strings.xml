@@ -1,3 +1,18 @@
 <resources>
     <string name="app_name">MiniLine</string>
+
+    <string name="main_title">Select Game</string>
+
+    <string name="game_type_title">Game name</string>
+    <string name="game_type_single_player">Start</string>
+    <string name="game_type_multi_player">Multiplayer</string>
+
+    <string name="multiplayer_title">@string/game_type_multi_player</string>
+    <string name="multiplayer_online">Online</string>
+    <string name="multiplayer_offline">Offline</string>
+
+    <string name="chat_message_edittext_hint">Type a message…</string>
+
+    <string name="search_search_view">Search</string>
+    <string name="search_start_view">Start</string>
 </resources>

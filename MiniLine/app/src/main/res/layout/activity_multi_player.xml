@@ -7,29 +7,35 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context=".SelectGameActivity">
-
+    tools:context="com.example.android.miniline.MultiPlayerActivity">
 
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_marginTop="46dp">
+        android:layout_alignParentTop="true">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/main_title"
-            android:id="@+id/main_title_textview"
+            android:text="@string/multiplayer_title"
+            android:id="@+id/textView3"
             android:layout_gravity="center_horizontal" />
 
-        <ListView
-            android:layout_width="match_parent"
+        <Button
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/main_games_listview"
+            android:text="@string/multiplayer_online"
+            android:id="@+id/multi_player_online_button"
+            android:layout_gravity="center_horizontal" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/multiplayer_offline"
+            android:id="@+id/multi_player_offline_button"
             android:layout_gravity="center_horizontal" />
     </LinearLayout>
 </RelativeLayout>
