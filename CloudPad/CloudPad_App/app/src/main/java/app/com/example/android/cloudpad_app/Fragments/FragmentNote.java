@@ -28,9 +28,9 @@ import app.com.example.android.cloudpad_app.classes.interfaces.ReturnBoolean;
 import app.com.example.android.cloudpad_app.classes.physical.Note;
 import butterknife.Bind;
 import butterknife.ButterKnife;
-import nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.Classes.Config;
-import nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.Classes.Handlers.AccountHandler;
-import nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.Classes.Physical.Account;
+import nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.classes.Config;
+import nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.classes.handlers.AccountHandler;
+import nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.classes.physical.Account;
 
 
 public abstract class FragmentNote extends Fragment implements SwipeRefreshLayout.OnRefreshListener {

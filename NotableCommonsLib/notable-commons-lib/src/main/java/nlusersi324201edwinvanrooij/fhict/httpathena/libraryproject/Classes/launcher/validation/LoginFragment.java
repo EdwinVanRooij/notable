@@ -1,4 +1,4 @@
-package nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.Classes.launcher.validation;
+package nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.classes.launcher.validation;
 
 
 import android.os.Bundle;
@@ -14,8 +14,8 @@ import android.view.animation.AnimationUtils;
 import android.widget.Button;
 import android.widget.EditText;
 
-import nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.Classes.Handlers.AccountHandler;
-import nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.Classes.Handlers.LocalHandler;
+import nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.classes.handlers.AccountHandler;
+import nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.classes.handlers.LocalHandler;
 import nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.R;
 
 /**

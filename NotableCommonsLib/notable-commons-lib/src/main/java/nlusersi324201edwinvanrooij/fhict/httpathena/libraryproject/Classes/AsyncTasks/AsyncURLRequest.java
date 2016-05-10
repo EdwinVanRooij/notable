@@ -1,4 +1,4 @@
-package nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.Classes.AsyncTasks;
+package nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.classes.asynctasks;
 
 import android.app.ProgressDialog;
 import android.content.Context;
@@ -11,7 +11,7 @@ import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
 
-import nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.Classes.Interfaces.AsyncResponse;
+import nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.classes.interfaces.AsyncResponse;
 import nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.R;
 
 /**

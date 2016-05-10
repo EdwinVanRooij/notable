@@ -22,18 +22,18 @@ import java.util.ArrayList;
 import java.util.List;
 
 import app.com.example.android.cloudpad_app.classes.adapteritems.AdapterItemAccount;
-import nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.Classes.Handlers.DatabaseHandler;
-import nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.Classes.Handlers.AccountHandler;
+import nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.classes.handlers.DatabaseHandler;
+import nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.classes.handlers.AccountHandler;
 import app.com.example.android.cloudpad_app.utils.GeneralHandler;
 import app.com.example.android.cloudpad_app.classes.handlers.NoteHandler;
 import app.com.example.android.cloudpad_app.classes.physical.Note;
 import butterknife.Bind;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
-import nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.Classes.AsyncTasks.AsyncURLRequest;
-import nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.Classes.Config;
-import nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.Classes.Interfaces.AsyncResponse;
-import nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.Classes.Physical.Account;
+import nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.classes.asynctasks.AsyncURLRequest;
+import nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.classes.Config;
+import nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.classes.interfaces.AsyncResponse;
+import nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.classes.physical.Account;
 
 public class NewNoteActivity extends AppCompatActivity {
 

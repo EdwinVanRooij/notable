@@ -31,10 +31,10 @@ import app.com.example.android.cloudpad_app.fragments.FragmentShared;
 import butterknife.Bind;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
-import nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.Classes.Config;
-import nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.Classes.Handlers.LocalHandler;
-import nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.Classes.Physical.Account;
-import nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.Classes.launcher.LoginContainerActivity;
+import nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.classes.Config;
+import nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.classes.handlers.LocalHandler;
+import nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.classes.physical.Account;
+import nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.classes.launcher.LoginContainerActivity;
 
 
 public class MainActivity extends AppCompatActivity {

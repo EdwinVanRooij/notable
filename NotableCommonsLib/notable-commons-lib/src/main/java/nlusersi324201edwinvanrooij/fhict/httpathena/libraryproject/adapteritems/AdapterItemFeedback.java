@@ -1,16 +1,10 @@
 package nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.adapteritems;
 
 
-import android.content.Context;
-import android.support.v7.widget.RecyclerView;
-import android.view.View;
-import android.widget.TextView;
-
 //import nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.R;
 //
 //import com.mikepenz.fastadapter.items.AbstractItem;
 
-import nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.Classes.Physical.FeedbackItem;
 
 /**
  * Created by Edwin on 11/16/2015.

@@ -3,7 +3,7 @@ package app.com.example.android.cloudpad_app.classes.physical;
 import android.os.Parcel;
 import android.os.Parcelable;
 
-import nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.Classes.Config;
+import nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.classes.Config;
 
 /**
  * Created by Edwin on 11/3/2015.

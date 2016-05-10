@@ -1,4 +1,4 @@
-package nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.Classes.launcher;
+package nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.classes.launcher;
 
 
 import android.graphics.Typeface;
@@ -14,8 +14,8 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.Classes.launcher.validation.LoginFragment;
-import nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.Classes.launcher.validation.RegisterFragment;
+import nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.classes.launcher.validation.LoginFragment;
+import nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.classes.launcher.validation.RegisterFragment;
 import nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.R;
 
 /**

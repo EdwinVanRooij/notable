@@ -13,7 +13,7 @@ import app.com.example.android.cloudpad_app.classes.adapteritems.AdapterItemAcco
 import app.com.example.android.cloudpad_app.classes.adapteritems.AdapterItemInfoAccount;
 import app.com.example.android.cloudpad_app.classes.adapteritems.AdapterItemNote;
 import app.com.example.android.cloudpad_app.classes.physical.Note;
-import nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.Classes.Physical.Account;
+import nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.classes.physical.Account;
 
 /**
  * Created by Edwin on 11/9/2015.

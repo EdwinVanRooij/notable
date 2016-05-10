@@ -1,11 +1,11 @@
-package nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.Classes.launcher;
+package nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.classes.launcher;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 
-import nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.Classes.Handlers.GeneralHandler;
-import nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.Classes.Handlers.LocalHandler;
+import nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.classes.handlers.GeneralHandler;
+import nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.classes.handlers.LocalHandler;
 import nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.R;
 
 public class LauncherActivity extends AppCompatActivity {

@@ -15,11 +15,11 @@ import java.util.List;
 import app.com.example.android.cloudpad_app.classes.physical.Note;
 import app.com.example.android.cloudpad_app.classes.physical.PrivateNote;
 import app.com.example.android.cloudpad_app.classes.physical.SharedNote;
-import nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.Classes.AsyncTasks.AsyncURLRequest;
-import nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.Classes.Handlers.ConvertHandler;
-import nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.Classes.Handlers.DatabaseHandler;
-import nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.Classes.Interfaces.AsyncResponse;
-import nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.Classes.Physical.Account;
+import nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.classes.asynctasks.AsyncURLRequest;
+import nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.classes.handlers.ConvertHandler;
+import nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.classes.handlers.DatabaseHandler;
+import nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.classes.interfaces.AsyncResponse;
+import nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.classes.physical.Account;
 
 /**
  * Created by Edwin on 11/23/2015.

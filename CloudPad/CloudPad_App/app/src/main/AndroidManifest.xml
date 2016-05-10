@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-
     package="app.com.example.android.cloudpad_app">
 
     <uses-permission android:name="android.permission.INTERNET" />
@@ -14,7 +13,7 @@
         android:theme="@style/AppTheme"
         tools:ignore="AllowBackup,GoogleAppIndexingWarning">
         <activity
-            android:name="nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.Classes.launcher.LauncherActivity"
+            android:name="nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.classes.launcher.LauncherActivity"
             android:theme="@android:style/Theme.NoDisplay">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -23,23 +22,24 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.Classes.launcher.LoginContainerActivity"
+            android:name="nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.classes.launcher.LoginContainerActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.FullScreen" />
         <activity
             android:name=".MainActivity"
             android:label="@string/ab_home"
-            android:theme="@style/AppTheme.NoActionBar"/>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".NewNoteActivity"
             android:label="@string/ab_new_note"
             android:parentActivityName=".MainActivity">
             <intent-filter>
-                <action android:name="my.package.action.MY_ACTION"/>
+                <action android:name="my.package.action.MY_ACTION" />
+
                 <category android:name="android.intent.category.DEFAULT" />
-                <category android:name="my.package"/>
+                <category android:name="my.package" />
             </intent-filter>
-            </activity>
+        </activity>
         <activity
             android:name=".EditNoteActivity"
             android:label="@string/ab_edit_note"

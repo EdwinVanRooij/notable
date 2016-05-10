@@ -1,4 +1,4 @@
-package nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.Classes.Handlers;
+package nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.classes.handlers;
 
 import android.app.Activity;
 import android.content.Intent;

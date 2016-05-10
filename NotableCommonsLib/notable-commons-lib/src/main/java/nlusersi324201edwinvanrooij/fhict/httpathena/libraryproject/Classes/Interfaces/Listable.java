@@ -1,4 +1,4 @@
-package nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.Classes.Interfaces;
+package nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.classes.interfaces;
 
 /**
  * Created by Edwin on 3/14/2016

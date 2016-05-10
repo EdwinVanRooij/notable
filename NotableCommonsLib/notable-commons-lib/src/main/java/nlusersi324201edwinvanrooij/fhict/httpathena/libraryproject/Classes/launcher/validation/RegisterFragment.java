@@ -1,4 +1,4 @@
-package nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.Classes.launcher.validation;
+package nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.classes.launcher.validation;
 
 
 import android.os.Bundle;
@@ -18,11 +18,11 @@ import android.widget.EditText;
 import java.io.UnsupportedEncodingException;
 import java.net.MalformedURLException;
 
-import nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.Classes.AsyncTasks.AsyncDataRequest;
-import nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.Classes.AsyncTasks.AsyncURLRequest;
-import nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.Classes.Handlers.AccountHandler;
-import nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.Classes.Handlers.LocalHandler;
-import nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.Classes.Interfaces.AsyncResponse;
+import nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.classes.asynctasks.AsyncDataRequest;
+import nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.classes.asynctasks.AsyncURLRequest;
+import nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.classes.handlers.AccountHandler;
+import nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.classes.handlers.LocalHandler;
+import nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.classes.interfaces.AsyncResponse;
 import nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.R;
 
 /**

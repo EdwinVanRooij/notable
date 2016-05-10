@@ -1,4 +1,4 @@
-package nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.Classes.AsyncTasks;
+package nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.classes.asynctasks;
 
 import android.content.Context;
 import android.util.Log;
@@ -6,8 +6,8 @@ import android.util.Log;
 import java.net.URL;
 import java.net.URLEncoder;
 
-import nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.Classes.Config;
-import nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.Classes.Interfaces.AsyncResponse;
+import nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.classes.Config;
+import nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.classes.interfaces.AsyncResponse;
 
 /**
  * Created by Edwin on 12/18/2015.

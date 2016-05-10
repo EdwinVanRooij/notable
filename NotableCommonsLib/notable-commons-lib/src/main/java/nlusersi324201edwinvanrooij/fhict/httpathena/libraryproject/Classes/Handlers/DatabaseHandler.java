@@ -1,9 +1,9 @@
-package nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.Classes.Handlers;
+package nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.classes.handlers;
 
 import android.content.Context;
 
-import nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.Classes.AsyncTasks.AsyncDataRequest;
-import nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.Classes.Interfaces.AsyncResponse;
+import nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.classes.asynctasks.AsyncDataRequest;
+import nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.classes.interfaces.AsyncResponse;
 
 /**
  * Created by Edwin on 1/28/2016

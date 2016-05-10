@@ -1,4 +1,4 @@
-package nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.Classes;
+package nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.classes;
 
 /**
  * Created by Edwin on 10/27/2015.

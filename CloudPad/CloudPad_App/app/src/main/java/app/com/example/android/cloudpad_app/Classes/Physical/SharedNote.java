@@ -6,7 +6,7 @@ import android.text.format.DateFormat;
 
 import java.util.Date;
 
-import nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.Classes.Handlers.ConvertHandler;
+import nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.classes.handlers.ConvertHandler;
 
 /**
  * Created by Edwin on 11/16/2015.

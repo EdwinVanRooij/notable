@@ -3,12 +3,11 @@ package app.com.example.android.cloudpad_app.fragments;
 import android.support.v4.widget.SwipeRefreshLayout;
 
 import app.com.example.android.cloudpad_app.classes.physical.Note;
-import nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.Classes.Handlers.AccountHandler;
+import nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.classes.handlers.AccountHandler;
 import app.com.example.android.cloudpad_app.utils.GeneralHandler;
-import app.com.example.android.cloudpad_app.classes.handlers.NoteHandler;
-import nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.Classes.AsyncTasks.AsyncURLRequest;
-import nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.Classes.Handlers.DatabaseHandler;
-import nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.Classes.Interfaces.AsyncResponse;
+import nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.classes.asynctasks.AsyncURLRequest;
+import nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.classes.handlers.DatabaseHandler;
+import nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.classes.interfaces.AsyncResponse;
 
 
 public class FragmentShared extends FragmentNote implements SwipeRefreshLayout.OnRefreshListener {

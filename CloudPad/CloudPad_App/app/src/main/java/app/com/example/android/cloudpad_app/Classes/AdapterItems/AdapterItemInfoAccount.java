@@ -9,7 +9,7 @@ import com.mikepenz.fastadapter.items.AbstractItem;
 import app.com.example.android.cloudpad_app.R;
 import butterknife.Bind;
 import butterknife.ButterKnife;
-import nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.Classes.Physical.Account;
+import nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.classes.physical.Account;
 
 /**
  * Created by Edwin on 11/16/2015.

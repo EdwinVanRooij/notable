@@ -6,9 +6,9 @@ import java.util.List;
 
 import app.com.example.android.cloudpad_app.classes.adapteritems.AdapterItemNote;
 import app.com.example.android.cloudpad_app.utils.GeneralHandler;
-import nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.Classes.AsyncTasks.AsyncURLRequest;
-import nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.Classes.Handlers.DatabaseHandler;
-import nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.Classes.Interfaces.AsyncResponse;
+import nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.classes.asynctasks.AsyncURLRequest;
+import nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.classes.handlers.DatabaseHandler;
+import nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.classes.interfaces.AsyncResponse;
 
 
 public class FragmentPrivate extends FragmentNote implements SwipeRefreshLayout.OnRefreshListener {

@@ -1,4 +1,4 @@
-package nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.Classes.Physical;
+package nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.classes.physical;
 
 /**
  * Created by Edwin on 11/23/2015.

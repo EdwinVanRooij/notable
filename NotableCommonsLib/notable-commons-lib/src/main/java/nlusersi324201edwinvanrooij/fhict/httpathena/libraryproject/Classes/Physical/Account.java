@@ -1,11 +1,11 @@
-package nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.Classes.Physical;
+package nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.classes.physical;
 
 import android.os.Parcel;
 import android.os.Parcelable;
 
 import java.util.Date;
 
-import nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.Classes.Handlers.ConvertHandler;
+import nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.classes.handlers.ConvertHandler;
 
 /**
  * Created by Edwin on 11/10/2015

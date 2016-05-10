@@ -1,4 +1,4 @@
-package nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.Classes.launcher;
+package nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.classes.launcher;
 
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
