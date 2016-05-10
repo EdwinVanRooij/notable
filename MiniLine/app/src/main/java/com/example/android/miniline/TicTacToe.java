@@ -9,5 +9,8 @@ public class TicTacToe extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tic_tac_toe);
+
+        // TODO: 5/10/2016 theres an issue with the chat layout files, chat wont show up.
+        // may have something to do with the including of the file.
     }
 }
