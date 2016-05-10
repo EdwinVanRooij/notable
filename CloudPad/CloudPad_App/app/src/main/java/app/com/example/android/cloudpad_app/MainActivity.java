@@ -21,20 +21,17 @@ import com.mikepenz.materialdrawer.model.ProfileDrawerItem;
 import com.mikepenz.materialdrawer.model.SecondaryDrawerItem;
 import com.mikepenz.materialdrawer.model.interfaces.IDrawerItem;
 
-import java.util.Objects;
-
-import nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.adapters.ViewPagerAdapter;
-import app.com.example.android.cloudpad_app.utils.GeneralHandler;
-import app.com.example.android.cloudpad_app.classes.handlers.PushHandler;
 import app.com.example.android.cloudpad_app.fragments.FragmentPrivate;
 import app.com.example.android.cloudpad_app.fragments.FragmentShared;
+import app.com.example.android.cloudpad_app.utils.GeneralHandler;
 import butterknife.Bind;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
+import nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.adapters.ViewPagerAdapter;
 import nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.classes.Config;
 import nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.classes.handlers.LocalHandler;
-import nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.classes.physical.Account;
 import nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.classes.launcher.LoginContainerActivity;
+import nlusersi324201edwinvanrooij.fhict.httpathena.libraryproject.classes.physical.Account;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -98,8 +95,6 @@ public class MainActivity extends AppCompatActivity {
             }
             //endregion
         });
-
-        new PushHandler(this, thisAccount).connectToAllChannels();
     }
 
     private void setupDrawer() {
@@ -137,8 +132,6 @@ public class MainActivity extends AppCompatActivity {
                                                                        closeDrawer();
                                                                        break;
                                                                    case 4://Feedback
-                                                                       Intent feedback = new Intent(MainActivity.this, FeedbackActivity.class).putExtra(Config.KEY_ACCOUNT, thisAccount);
-                                                                       startActivity(feedback);
                                                                        break;
                                                                    case 5://Help
                                                                        startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("http://athena.fhict.nl/users/i324201/edwinvanrooij/")));
@@ -185,9 +178,9 @@ public class MainActivity extends AppCompatActivity {
         try {
             super.onResume();
             String tabname = new LocalHandler(this).getTabName(tabLayout.getTabAt(0).getText().toString());
-            if (Objects.equals(tabname, tabLayout.getTabAt(0).getText().toString())) {
+            if (tabname.equals(tabLayout.getTabAt(0).getText().toString())) {
                 viewPager.setCurrentItem(0);
-            } else if (Objects.equals(tabname, tabLayout.getTabAt(1).getText().toString())) {
+            } else if (tabname.equals(tabLayout.getTabAt(1).getText().toString())) {
                 viewPager.setCurrentItem(1);
             }
         } catch (Exception e) {
